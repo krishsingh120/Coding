@@ -1,0 +1,17 @@
+public class Floyds_triangle {
+    
+    public static void main(String[] args) {
+          int n = 5;
+          int  num = 1;
+          // outer loop for no. of  lines.
+          for(int i=1; i<=n; i++){
+                // inner loop for print no.
+               for(int j=1; j<=i; j++){
+
+                   System.out.print(" "+ num);
+                      num++;
+               }
+                 System.out.println();
+          }                      
+    }
+}
