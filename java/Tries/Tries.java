@@ -1,8 +1,8 @@
 
+
 class Node {
   Node links[] = new Node[26];
   boolean flag;
-
 
   public boolean containsKey(char ch) {
     return links[ch - 'a'] != null;
@@ -23,7 +23,6 @@ class Node {
   public boolean isEnd() {
     return flag;
   }
-
 }
 
 public class Tries {
@@ -94,7 +93,7 @@ public class Tries {
    * 
    *             So node look like this
    *             class Trie {
-   *             int arr[26];
+   *             Node arr[26];
    *             boolean flag;
    *             }
    * 
